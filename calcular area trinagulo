@@ -13,4 +13,8 @@ if a < b + c and b < a + c and c < a + b:
     area = (s * (s - a) * (s - b) * (s - c)) ** 0.5
     print(f"A área do triângulo é {area:.2f}")
 else:
-    print(f"Os valores digitados não formam um triângulo.")
+    print(f"Os valores {a}, {b} e {c} não formam um triângulo.")
+if a > b and a > c: 
+    print (f"0 valor maior e A, a={a}")
+else:
+    print(f"A não e o maior valor.")
